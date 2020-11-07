@@ -1,6 +1,13 @@
+/*
+ * @Description: 
+ * @version: 
+ * @Author: Kevin Shen
+ * @Date: 2020-10-08 13:19:03
+ * @LastEditors: Kevin Shen
+ * @LastEditTime: 2020-10-09 14:57:43
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

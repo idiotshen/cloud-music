@@ -39,9 +39,9 @@ const LoadingWrapper = styled.div`
     animation-delay: -0.7s;
   }
 `
-function Loading() {
+function Loading({show}) {
   return (
-    <LoadingWrapper>
+    <LoadingWrapper style={{display: show ? 'fixed' : 'none'}}>
       <div></div>
       <div></div>
     </LoadingWrapper>
